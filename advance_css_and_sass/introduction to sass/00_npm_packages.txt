@@ -1,0 +1,50 @@
+
+node js:
+---------
+    - allows developers to write and run JS applications on the server. 
+    - developers start using node.js to also write tools to help them 
+      with local web development
+
+NPM:
+----
+    - NPM is a simple command line interface that allows developers to 
+      install and manage packages on their local computers. 
+    - There are all kinds of open source tools, libraries and framewords 
+      needed for modern development.
+    - modern web develpment could simply not exist without a package manager
+
+
+install Sass: 
+-------------
+    - first install node js   => check by (node -v)
+    - npm init 
+    - npm install node-sass --save-dev
+        - save-dev to make it install as a dev dependency
+        - you can install jquery package like this => npm install jquery
+
+
+
+what if you install the packages or module;
+-------------------------------------------
+    - just run npm install and it will install as long it was written in 
+        package.json file 
+
+    
+how to uninstall a package:
+--------------------------
+    - npm unistall jquery --save 
+
+
+what is the difference between dev dependency and dependency?
+-------------------------------------------------------------
+- dev with helper dependency 
+- other with main dependency
+
+
+
+tip: 
+---- 
+    - when you push the project to the github 
+      just ignore the node-module and the users can use 
+      npm install to install all packages while it written in the 
+      package.json 

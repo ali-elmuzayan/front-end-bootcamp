@@ -1,0 +1,71 @@
+What is mixin: 
+--------------
+    - mixin directive lets you create CSS code that is to be 
+      reused throught the website;
+    - The @include directive is created to let you use (include) the mixin
+
+
+
+definiing  of mixin:
+--------------------
+@mixin name {
+    property: value;
+    proeprty: value;
+    ...
+}
+
+
+Using a Mixin:
+--------------
+The @include diective is used to include a mixin
+    selector {
+        @include mixin-name;
+    }
+
+
+
+Passing Variables to mixin:
+---------------------------
+    - mixin accepts arguments. this way you can pass Variables to mixin
+     @mixin bordered($color, $width) {
+        border: $width solid $color;
+     }
+
+
+Default Variables to mixin:
+--------------------------
+    - @mixin border($color: blue, $width: 1px) {};
+
+    - then, you only need ot specify the values that chnage when you include the mixin
+
+
+
+Using a mixin for vendor prefixes:
+----------------------------------
+    - @mixin transform($property) {
+        -webkit-transform: $property;
+        -ms-transform: $property;
+        transform: $proeprty;
+    }
+
+
+
+
+Notes:
+-----
+1) A mixin can include other mixins
+
+2) https://github.com/7ninjas/scss-mixins // try this library
+    it have a lot of mixin 
+
+
+
+tip:
+----
+A tip on hephens and underscore in SASS:
+    Hyphens and underscores are considered to be the same. This means that 
+    @mixin important-text {}  and @mixin important_text {} 
+    are considered as the same mixin;
+
+
+

@@ -1,0 +1,33 @@
+how to defin variables;
+    - $ + variableName: value;
+    EX
+        $color-primary: #f9ed69;
+
+how to use netsing?
+-------------------
+    - .selector {
+        secondSelector {}
+        thirdSelector {}
+    }
+    - those second and third slecter is actually nesting in html 
+        that make it easy to write it.
+        
+
+
+what is & sign do?
+------------------
+    - you can use (&) to indicate to the parent selector
+        if you write without it it will add space between it and not workd
+    ex:
+        .nav { ::after {}   &::before} it will compiled to
+        .nav {nav ::after {}  nav::before {} }
+
+
+
+built-in function:
+-------------------
+darken(color, percentage)
+    - to make it darker depending on the percentage
+
+lighten(color, percentage)
+    - to make the color lighter 

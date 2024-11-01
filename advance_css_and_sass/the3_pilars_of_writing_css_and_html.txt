@@ -1,0 +1,28 @@
+What is the Three pillars to write Good Html and CSS
+and build Good Website?
+
+    1) Responsive design
+        - fluid layouts
+        - media queries
+        - responsive images
+        - correct units
+        - desktop-first vs mobile-first
+
+
+    2) Maintainable and scalable code
+        - clean 
+        - easy to understand
+        - growth
+        - reusable
+        - how to organize files
+        - how to name classes
+        - how to structure html
+
+
+    3) web performance =>  make it faster and smaller in size 
+        - less http requests
+        - less code
+        - compress code 
+        - use a css preprocessor 
+        - less images (important)
+        - compress images 

@@ -1,0 +1,78 @@
+CSS Termonology:
+-----------------
+    - selector 
+    - declaration block 
+    - css rule
+    - declaration
+    - property
+    - declared value
+
+
+The cascade and specify:
+------------------------
+1) resolve confilicting the css declaration
+
+The cascade:
+------------
+    Process of combining different stylesheed and resolving conflicts
+    between different CSS rules and declaration, when more than one rule
+    applies to a certain element 
+
+    css come from different sources :
+    ---------------------------------
+        - author 
+        - user 
+        - browser
+
+    cascade look at the :
+    --------------------
+        - importance 
+            1) user !important declarations
+            2) author !important declaration
+            3) author declarations
+            4) user declarations
+            5) default browser declaration
+
+        - specificity  (if they have the same importance it will look at specifity)
+            1) inline styles
+            2) IDs
+            3) classes, pseudo-classes, attribute
+            4) elements, pseudo elements
+
+        - source order
+            - the last declarration in the code will override all other 
+                declarations and will be applied
+
+
+
+
+
+
+What you need to know: (important)
+---------------------------------
+    - CSS declaration marded with !important have the highest priority;
+    - but, only use !important as a last resource, it's better to use 
+        correct specificities -- more maintainable code!
+    - inline styles will always have priority over styles in external stylesheets;
+
+    - a selector that contains 1 ID is more specific that one with 100 classes;
+    - A selector that contains 1 class is more specific thant one with 1000 elements;
+    - The universal selector * has no specificity value (0,0,0,0) 
+
+    - rely more on specifity than on the order of selectors;
+    - but, rely on order when using 3rd-party stylesheets -- always put 
+        your author stylsheet last 
+
+an example issue:
+---------------
+    - some time you try the hover but it doesn't applied 
+        you should check mybe another declaration is more spcific than it
+        EX:
+            - #nav div.pull-righ a.button {} => more spcific
+
+            - #nav a.button:hover => this one is less specificity so it will not
+                applied to solve it you can write this 
+            
+            - instead of solveing this with !important write this 
+                @nav div.pull-righ a.button:hover 
+

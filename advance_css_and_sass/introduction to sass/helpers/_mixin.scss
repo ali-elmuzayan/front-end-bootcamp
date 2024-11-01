@@ -1,0 +1,36 @@
+@mixin circle($diementions) {
+    border-radius: 50%;
+    width: $diementions;
+    height: $diementions;
+}
+
+
+@mixin list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+@mixin centering   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// style link
+@mixin style-link-text($color) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color;
+}
+
+
+// clear float 
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

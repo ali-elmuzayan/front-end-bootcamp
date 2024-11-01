@@ -1,0 +1,7 @@
+// we can write our own function 
+// there is multiple built-in function 
+
+
+@function name(arguements) {
+
+}

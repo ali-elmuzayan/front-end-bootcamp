@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+    <title>natarouts</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-box">
+            <img src="img/logo-white.png" alt="Logo" class="logo">
+        </div>
+        <div class="text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">Outdoors</span>
+                <span class="heading-primary-sub">is where life happens</span>
+            </h1>
+
+            <a href="#" class="btn btn-white btn-animated">Discover our Tours</a>
+        </div>
+    </header>
+    
+    
+</body>
+</html>
+
+
+
+
+
+<!-- 
+ What we will learn in here 
+    - The best way to peroform the basic reset using the 
+      universal selector
+    - How to set project-wide font definitions
+    - hwo to clip parts of elements using clip-path
+-->
+<!-- 
+Notes:
+    - we don't just select the element and set the property 
+      on it, we give it a class  and set the property to that class
+
+normalize:
+    - in css we use the universal selector, in order to make a cross browser reset
+    - now this is not neccessary becasue all the browser getting betters.
+
+font property of the entire page: 
+    - should be set in the body (inheritance)
+
+
+background-size: cover;
+    - makes the background image cover the entire element
+    - what ever the width of the viewport,it will always try to fit
+    
+position: top;
+    - ensure what ever the viewport size is that this top of the image 
+        is in the top
+    - bottom, center, ... it will cropoed out depending on that 
+
+to specify griedient:
+    - we always use background image (not sure)
+    - background-image: linear-gradient(to right bottom, color1, color2), url()
+
+clip-path: polygon(x1 y1, x2 y2, x3 y3, x4 y4);
+    - axis are relative to the element's top left corner
+    - x1 y1 is the top left corner
+    - x2 y2 is the top right corner
+    - x3 y3 is the bottom right corner
+    - x4 y4 is the bottom left corner
+
+logo;
+    - it is better to put the img of logo in dive because it is an inline element
+    - alt attribute is to describe the image for SEO
+
+for heading text;
+    - h1  have main and sub heading and change the stye 
+    - best thing to make them next to each other is to make them block 
+    - sub, main => display block  
+    - give the main heading letter spacing 35
+
+for the position: 
+    - it will determine depending on the position of the element
+    - top, bottom, left, right
+    - but we need to make it depending ot the center 
+    - transofrm: translate(x, y);=> translate(-50%, -50%);
+
+ -->
+
+
+
+
+<!-- 
+ CSS animation using @keyframes and the animation property
+
+@keyframes name { <from>   0%{} - <to> 100% {} }
+
+    transfrom: transformX   => from left to right 
+
+to the animation to work use this property;
+    - animation-name: name;
+    - animation-duration: time;
+    - animation-delay: time; 
+        =>  it mean it will wait this time before animation start
+    - animation-iteration-count: number;
+        => that mean animation will iterate this number of counts
+    
+    - animation-timing-function : linear, ease, ease-in, ease-out, ease-in-out
+        => how the animation should proegress over the duration of each cycle
+
+shorten property
+    animation => animation-name, animation-duration, animation-delay, animation-iteration-count, animation-timing-function
+        => css will figure what mean whats
+
+
+backface-visibility: hidden;  (proprety)
+    - to prevent the animation from moving to the top like we notice 
+    - to ensure that backpart actually hidden
+
+
+rotate(degree)
+
+scale(x, y)
+    - to increase the size
+
+animation fill mode: backwards:
+    - automatically start the styleys up to zero percent before the animation starts
+
+-->
+
+
+<!-- 
+-----------------------------------------------------
+button animation:
+what we are going to learn 
+    - pseudo elements and pseudo classes
+    - how and why ot use the ::after pseudo element
+    - how to create a creative hover animation effect using the transition
+
+our button here will be a ancher elememnt:
+
+
+transition: 
+    -
+
+when hover;
+    - transform: translateY(-3px);
+    - box-shadow: 0 10px 20px (0,0,0,0.2);
+
+when clicking 
+    - increase the translateY 
+    - decrese the box shadow to the half
+
+
+after pseuedo elements: 
+    - it is adding a virtual elements after the element we selected
+    - always select the content even if it empty;
+
+
+
+-->
+
+
+
+
+
+ <!-- 
+---------------------------------------------------------
+shorcut that will help:
+    - backimg
+    - ctrl + d 
+        to select all the same text
+ -->

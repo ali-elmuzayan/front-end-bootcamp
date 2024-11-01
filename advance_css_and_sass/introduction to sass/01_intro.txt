@@ -1,0 +1,50 @@
+what is sass?
+-------------
+    sass is a css preprocessor, an extension of CSS that adds power
+    and elegance to the basic language
+
+
+how it works?
+-------------
+    - instead of writing css file with css code, we write a sass code with sass 
+      files, then we run compiler and that compiler converts the sass code 
+      into regular css 
+    - the browser will not know that we had written our code with sass because 
+      it will compiled to css code 
+
+
+Main Sass features:
+-------------------
+    - Variables:
+        for reusable values such as colors, font-size, spacing, etc
+    
+    - nesting:
+        to nest selectors inside of one another, allowing us to write less code;
+
+    - operators:
+        for mathematical operations right inside of CSS
+
+    - partials and imports: 
+        to write CSS in different files and importing them all into 1 single file
+
+    - mixin: 
+        to write reusable pieces of css code;
+
+    - functions:
+        similar to mixins, with the difference that they produce a value that can
+        then be used.
+
+    - extends:
+        to make different selectors inherit declarations that are common to all of them
+
+    - control directives: 
+        for writing complex code using conditionals and 
+        
+
+2 syntax:
+---------
+    - sass syntax
+        - 
+    - scss syntax
+
+

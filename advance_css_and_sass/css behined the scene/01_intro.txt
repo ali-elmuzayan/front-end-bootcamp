@@ -1,0 +1,22 @@
+What happens to css when we load up a webpage?
+    first:
+    - things like figure out the domain name
+    - http requests
+
+    then:
+    - load html  => 
+    - parse HTML => 
+        - Load CSS => parse css => CSSOM
+        - DOM => 
+    - render tree (CSSOM, DOM)
+
+    1) loading the HTML 
+    2) parsing the HTML 
+    3) from this processos the browser builds the DOM and it will find 
+        the CSS in the heading so it will parse it 
+    4) parse CSS : 
+        - resolve confilicting CSS declaration (Cascade)
+        - Process final css value (vh, rem, %, etc...)
+    5) DOM and CSS object model form the render tree
+        website redering: the visual formating model
+    6) final rendered website

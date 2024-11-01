@@ -1,0 +1,20 @@
+// like write a place holder and other elements will extens form it 
+
+
+how to write a placehoder;
+--------------------------
+%blaceholder name
+%btn-placeholder
+
+
+how to extend 
+-------------
+    @extend %btn-placeholder
+
+
+with the extends:
+-----------------
+    what happens is that the slector is copied the rule
+note:
+    you should only ever use extends if the rule that we extends 
+    are inherently and thematically related to one another
