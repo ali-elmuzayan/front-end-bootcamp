@@ -48,3 +48,31 @@ tip:
       just ignore the node-module and the users can use 
       npm install to install all packages while it written in the 
       package.json 
+
+
+  
+NPM scripts:
+------------
+  - touch main.sass or main.scss
+
+  - in the script in the package.json
+    add your script 
+        "compile:sass": "node-sass sass_file css_file" 
+    or  "compile:sass": "node-sass sass_file css_file -w
+      
+  - which mean it will compile our sass file to the css file
+    and you just link the css file to the html 
+
+  - Note:
+      you can add variabel that contain hexa decimal color on rgb
+      rgba($main-color, 0.2);
+
+
+live server:
+-----------
+  -  automatically reload a page on a file change
+  - how to install it 
+        =>  npm install live-server
+  - how to install it globally 
+        => npm install live-server -g
+    
