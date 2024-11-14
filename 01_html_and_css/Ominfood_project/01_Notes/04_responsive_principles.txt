@@ -1,0 +1,69 @@
+
+
+
+Responsive Design:
+    - Design technique to make a webpage adjust its layout and visual 
+        styles to any possible screen size (windows or viewport size)
+
+    - in practice, this means that Responsive design makes websites usable on
+        all devices, such as desktop computers, tables, and mobile phones
+
+    - it's a set of practices, not a separate technology. It's all just CSS
+
+
+- Responsive Design Ingredients:
+------------------------------
+1) Fluid layouts
+    - To allow webpage to adapt to the current viewport width 
+        (or even height)
+
+    - Use % (or vh / vw) unit instead of px for elements that should 
+        adapt to viewport (usually layout)
+
+    - use max-width instead of width
+
+
+
+2) Responsive units
+    - Use rem unit instead of px for most length
+
+    - to make it easy to scale the entire layout down (or up) automatically
+
+    - helpful trick: 
+        setting 1rem to 10px for easy calculations
+
+
+
+3) flexible images
+    - by default, images don't scale automatically as we change the 
+        viewport, so we need to fix that 
+
+    - always use % for image dimensions, together with the max-width
+
+
+
+4) media queries
+    - bring responsive sites to life!
+
+    - to change CSS styles on certain viewport widths
+        called breakpoints
+
+
+
+
+Desktop-first vs. Mobile-first development:
+-------------------------------------------
+Desktop-first: 
+    - start writing CSS for the desktop: large screen.
+
+    - them media queries shrink design to smaller screens.
+
+
+Mobile-first: 
+    - start writing CSS for mobile devices: small screen.
+
+    - then, media queries expand design to a large screen.
+
+    - forces us to reduce websites and apps to the absolute essentials
+
+

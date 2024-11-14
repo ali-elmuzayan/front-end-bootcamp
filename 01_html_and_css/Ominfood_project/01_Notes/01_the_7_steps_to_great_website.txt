@@ -1,0 +1,110 @@
+The process behind building a website:
+--------------------------------------
+1)Define:
+    - define who the wesite is for. is it for yourself? 
+        for a clien of your agency or you freelancing business?
+
+    - define what the website is for. In other words, define business and
+        user goals of your website project 
+
+    - define target audience. be really specific if possible and if it
+        make senese for yoru website.
+
+
+
+
+2)Plan:
+-------
+    - plan and gather website contentd: copy (text), images, videos etc.
+
+    - content is usually provided by the client, but you also can help 
+        them produce and find some content (simply finding free images 
+        is easiest, but if they want copy, charge them extra)
+
+    - for bigger sites, plan out the sitemap: what pages the site needs
+        and how they are related to one another (content hierarchy)
+
+    - based on the content, plan what section each page needs in order 
+        to convery the contetn's message, and in which order.
+
+    - define the website personality
+
+
+
+3)Sketch 
+---------
+    - think about what components you need, and how you can use 
+        them in layout pattern
+
+    - get ideas out of your head: sketch them with pen and paper or with 
+        some design software
+
+    - this is an iterative process: expriment with different components 
+        and layouts, until you arrive at a first good solution  
+
+    - you don't need to sketch everything, and don't make it perfect. 
+        at some point you're ready to jump into HTML and CSS
+
+
+
+
+
+4) Design and building
+-----------------------
+    - use decisions, content and sketches from steps 1,2 and 3 to design
+        and build the website with HTML and CSS
+
+    - you already have the layout and components that you selected step 3,
+        in this step, you need to design the actual visual styles.
+
+    - create the desing based on selected website personality, the design
+        guidelines I shoed you, and inspiration 
+
+    - Use the client's branding (it if exists already) for design decisions 
+        whenever possible: colors, typography, icons, etc.
+
+
+
+5) Test and optimize: 
+---------------------
+    - make sure website works well in all major browsers 
+
+    - test the website on actual mobile devices, not just in devtools
+
+    - optimize all images, in terms of dimensions and fille size 
+
+    - fix simple accessibility problems (e.g. color constrant issues)
+
+    - run the lighthouse performance test in chrome devtools and try
+        to fix reported issues
+
+    - think about SEO (search engine optimization)
+
+
+
+6) launch the masterpiece:
+-------------------------
+    - once all work is done, everything is perfect, and you got approval
+        from your client, it is time to share your mastrpiece with the world
+
+    - upload your website file to a hosting platform. There are countless
+        platform, we will use one with a free plan (netlify)
+
+    - choose and buy a great domain name, on that represents the brand well,
+        is memorable and easy to write
+
+
+
+7) maintain and update:
+-----------------------
+    - launching is not the end....
+
+    - keep the website content updated over time, if you're working
+        with client, you cna create a monthly maintennce contract.
+
+    - instal analytics software (e.g. google analytics of rathom) to get
+        statistics about website users. This may inform future chnages
+        in the site structure and content.
+
+    - A blog that is updated regularly is a good way to keep users coming
+        back, and is also good for SEO

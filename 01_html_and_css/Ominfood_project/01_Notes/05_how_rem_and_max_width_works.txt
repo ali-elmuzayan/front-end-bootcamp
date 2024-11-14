@@ -1,0 +1,41 @@
+
+
+How Rem and max width works:
+
+
+1) max width:
+    - when there is no more additional space to fit then element should simply
+        have the width of the parent container
+
+    - max-width: 1000px;
+        it mean it will fit the parent elemtn until it getting bigger 
+        than 1000px, in this case it will take the 1000px width 
+    
+    - while if you using the width it will make it static
+
+
+2) rem 
+    - root element font size 
+
+    - root of the document is the html element 
+
+    -  1 rem = 16px => which is the default browser font size 
+        unless the user change it, then it will take diff value
+
+
+Note:
+    - some time we set the value of max width with rem  
+        so when changing the font size of smaller or bigger screen the 
+        layout will chrunk or grow depending on the font size of rem
+    
+    - not perfect => because the user may change (solve)
+        to solve that you can set it to percentage value 
+
+    - how to change the rem 
+        html {font-size: 10px}
+        html {font-size: 62.5%}
+
+    - all the relative units such as percentages or rem needs to converts
+        back to pixels (browser will do that)
+
+    - 

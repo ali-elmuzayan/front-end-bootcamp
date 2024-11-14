@@ -1,0 +1,9 @@
+
+
+img: 
+    - when you determine the container width but this container 
+        have an image with a static width of px so it will not be 
+        resoponsive 
+    => make the image take width of percentage 
+     
+        

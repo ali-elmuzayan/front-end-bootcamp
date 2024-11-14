@@ -1,0 +1,17 @@
+section 
+    - represent a generic part 
+    - better to give it a class start with section
+
+hero section will contain parent div (hero) and 2 div 
+    - one for box => hero-text-box
+        - heading-primary
+        - hero-description
+
+        - cta button 
+        - learn more button &darr
+
+    - one for image => hero-img-box
+
+
+Note:
+    - alt can contain a long text, and don't forget to add alt for seo
