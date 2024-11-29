@@ -1,0 +1,64 @@
+What is Visual Hierarchy?
+-------------------------
+    ** Visual Hierarchy is about establishing which elements of a
+        design are the most important ones 
+
+    ** Visual Hierarchy is about drawing attention to these most 
+        important elements
+        
+    ** Visual Hierarchy is about defining a "path" for users, to 
+        guide tehm through the page 
+
+    ** we use a combination of Position, size, colors, spacing, borders,
+        and shadows to establish a meaningful visual hierarchy between 
+        elements/components
+
+
+Visual Hierarchy fundamentals:
+-----------------------------
+    01) Position important elements closer to the top of the page.
+        where they get more attention 
+
+    02) Use images mindfully, as they draw a lot of attention (larger 
+        images get more attention)
+
+    03) Whitespace creates seperation, so use whitespace strategically
+        to emphasize elements
+
+
+Visual hierarchy for text elements:
+-----------------------------------
+    04) for text elements, use font size, font wieght, color, and 
+        whitespace to convey importance
+
+    05) What text elements emphasize? Titles, sub-titles, links, buttons
+        data points, icons
+        => you can also de-emphasize less important text, like labels or
+            secondary/ additional information
+        => title, sub-title, link, icon, data point, additional information
+
+
+Visual hierarchy between components:
+------------------------------------
+    06) emphasize an important component using background color, shadow
+        or border (or multiple)
+
+    07) Try emphasizing some component A over component B by 
+        demphasizing component background
+    
+    08) What components to emphsize? 
+            Testimonials, 
+            call-to-action sections, 
+            highlight sections, 
+            preview cards, 
+            forms, 
+            pricing tables, 
+            important rows/ columsn in tables, 
+            etc... 
+
+
+implementing in our project:
+----------------------------
+    - the heading should be closer to its section
+    - in the card the li should have less space between each other
+    - and the li in card should be farther from the from the action 

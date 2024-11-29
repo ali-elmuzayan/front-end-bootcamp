@@ -1,0 +1,41 @@
+Some concepts first:
+--------------------
+    ** After an era of 100% flat design, we're now back to using shadows
+     in UI design ("flat design")
+
+    ** Shadow creates depth (3D): the more shadow, the further away
+       from the interface the element is 
+
+
+Use Good Shadows:
+----------------
+    01) You don't have to use shadows! Only use them if it makes sense
+        for the website personality
+        => less shadow make it serious and elegant 
+        => more shadow meke it playful/fun
+
+    02) Use shadows in small doses: don't add shadows to every element!
+
+    03) Go light on shadows, don't make them too dark!
+
+
+Use Shadows in the right situation:
+-----------------------------------
+    04) Use small shadows for smaller elements that should stand out
+        (to draw attention)
+
+    05) Use medium-sized shadows for larger areas that should stand 
+        out a bit more 
+
+    06) Use large shadows for elements that should really float above 
+        the interface
+
+    07) Experiment with changing shadows on mouse interaction 
+        (click and hover)
+
+    08) experiment with glows (colored shadows)
+
+
+implementing shadows: 
+---------------------
+    - card for example need shadow

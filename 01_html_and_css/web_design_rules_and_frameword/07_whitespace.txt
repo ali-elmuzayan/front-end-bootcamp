@@ -1,0 +1,38 @@
+Why Whitespace:
+-----------
+** The right amount of whitespace makes designs look clean, modern and
+    polished **
+
+    01) Use tons of whitespace between sections
+        ex: 192px between sections or 140px, etc
+
+    02) Use a lot of whitespace between groups of elements
+        ex: 24px, 96px, 152px, etc
+        vertically we need a lot more space than horizontally
+
+    03) Use whitespace between elements 
+
+    04) Inside groups of elements, try to use whitespace instead 
+        of lines
+
+How Much Whitespace:
+--------------------
+
+    05) The more some elements (or groups of elements) belong together,
+        the closer they should be!
+        => the raw of porximity:
+            ex: title and text belong together so there is less space 
+                between them, while we have a more space between them 
+                and the icons related to them 
+
+    06) Start with a lot of whitespace, maybe even too much! Then
+        remove whitespace form there
+        => be aware that: too much whitespace look detached, too 
+           little looks too crammed
+
+    07) Match other design choices. If you have big text or big icons, 
+        you need more whitespace.
+
+    08) Try a hard rule, such as using multiples of 16px for all spacing
+        => 2, 4, 8, 12, 16, 24, 32, 48, 64, 80, 96, 128px
+

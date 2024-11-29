@@ -1,0 +1,22 @@
+Border radious: 
+--------------
+    01) use border-radius to increase the playfulness and fun of the 
+        design, to make it less serious
+            - the less border radious => the more serious and elengant 
+            - the more border-radius  => the more playful / fun 
+
+    02) Typefaces have a certain roundness: make sure that 
+        border-radious matches that roundness!
+
+    03) Use border-radius on buttons, images, around icons, 
+        standout sections and other elements
+
+
+implementing:
+-------------
+    - border-radious:;
+
+    - if the image have a border radius so the section should change 
+      depending on the design;
+    
+    - it will affetct the style so be careful

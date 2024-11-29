@@ -1,0 +1,59 @@
+Use Good Icons:
+---------------
+    01) Use a good icon pack, there are tons of free and paid icons pack
+        toolbox:
+        - phosphor icons
+        - ionicons
+        - icons8
+        - font awesome
+
+    02) Use only one icon pack. Don't mix icons from different icon packs
+
+    03) Use SVG icons or icon fonts. Don't use bitmap image format (.jpg
+        and .png)
+            - svg => vector based 
+              scale indefinitely
+
+    04) Adjust to website personality! Roundness, weight and filled/
+        outlined depend on typography
+
+When using icons:
+---------------------------
+
+    05) Use icons to provide visual assistance to text 
+
+    06) Use icons for product feature blocks
+
+    07) Use icons associated with actions, and label them (unless no
+        space or icon is 100% clear)
+        - don't use some elements as text and other as unlabeled icons
+          
+
+    08) Use icons as bullet points
+
+Use Icon well :
+---------------
+
+    09) To keep icons neutral, use same color as text. To draw more
+        attention, use different color 
+
+    10) Don't confuse your users: icons need to make sense and fit the 
+        text or action!
+
+    11) Don't make icons larger than what they were designed for. If
+        If needed, enclose them in a shape 
+
+
+implementing:
+-------------
+    - there are many way to implementing svg icons 
+        - you can download it then use it with img element
+        - or you implement it like any codes becase svg is just a code
+    - for svg icon when you want to style the color 
+        - stroke property 
+    - for the body of the svg you need use 
+        - fill property 
+
+trick:
+    - you can copy multiple elements in different lines using "alt"
+    - and then paste this multiple elements in one time 

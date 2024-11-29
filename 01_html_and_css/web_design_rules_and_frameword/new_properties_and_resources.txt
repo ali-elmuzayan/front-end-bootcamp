@@ -1,0 +1,56 @@
+// typegraph:
+------------
+    - line-height:
+    - letter_spacing
+
+
+//colors:
+---------
+    - color: ; => text color 
+
+
+// shadow: 
+----------
+    - box-shadow: 1)horizontal-offset 2)vertical-offset 
+                  3)blur 4)scale-shadow 5)color; 
+    - text-shadow: same as 
+    - notes :
+      - use rgba to handle opacity 
+      - it accept negative value 
+      - you can multiple shadow by sepreate them with 
+        comma
+      - text shadow could be useful if you use a text 
+        in top o image 
+
+
+// border-radious;
+------------------
+    - border-radius 
+    - Notes:
+      - you can style one corder 
+        border-bottom-left-radious:
+
+
+// transform():
+--------------
+  - vertical centring with absolute position and transform
+    - translate();
+
+
+// icons:
+------------
+  - fill 
+    - for the body of the svg icon 
+  - stroke
+    - for the color 
+
+** ------------ **
+    Resources:
+** ------------ **
+colors:
+----------
+    - open color
+
+icons:
+---------
+    - heroicons

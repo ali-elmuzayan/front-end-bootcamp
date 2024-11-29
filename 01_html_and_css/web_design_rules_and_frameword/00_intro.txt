@@ -1,0 +1,64 @@
+Web Design vs. Developement:
+------------------------------------
+    - web designer : creates the overall look and feel of a website
+    - web developers: implement the design using HTML, CSS and JS code
+
+
+
+Why good design is important:
+-----------------------------
+    - Creates an immeditate and lasting good impression of the brand 
+        or product 
+    - Makes the user trust the brand right away;
+    - Increase the user's perceived value of the brand or product;
+    - Gives users exactly what they were looking for when coming to the 
+        site, e.g. purchasing a product or finding information
+
+
+
+ingredients of web design:
+--------------------------
+    01) typography
+    02) colors
+    03) Images/Illustration 
+    04) Icons
+    05) shadows
+    06) Border-radius
+    07) Whitespace
+    08) Visual Hierarchy
+    09) User Experience 
+    10) Components/Layout:
+    
+Note: Design decisions for each ingredients are based on web personality
+
+
+
+Overview of Website personality:
+--------------------------------
+    01) Serious/ Elegant:
+        - for luxury and elegence, based on thin serif typefaces, golden
+          or pastel colors, and big high quality images
+
+    02) MInimal/Simple:
+        - Focusses on the essential text content, using small or meduim 
+          sized sans-serif black text, lines and few images and icons 
+
+    03) Plain/Neutral:
+        - Design that gets out of tech way by using neutran and small 
+        typefaces and a very structured layout. Common in big corporations
+
+    04) Bold/Confident:
+        - makes an impact, by featuring big and bold typography paired with
+          confident use of big and bright colored blocks
+
+    05) Calm/ Peaceful:
+        - for products and services that care, transmitted by calming pastel
+          colors, soft serif heading, and matching images/illustrations
+
+    06) Startup/Upbeat:
+        - Widely used in startups, featuring medium-sized sans-serif 
+          typeface, light-grey text and backgrounds, and rounded elements
+
+    07) Playful/Fun:
+        - colorfult and round desing, fuled by creative element like hand
+            drawn icons or illustartion, animations, and fun langauage

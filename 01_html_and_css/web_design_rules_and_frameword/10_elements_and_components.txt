@@ -1,0 +1,71 @@
+Elements and Components:
+------------------------
+    01) Use common elements and Components to convey your website's 
+        information 
+
+    02) Combine componenets into layouts using common layout patterns
+
+    03) Assemble different layout areas into a complete, final page.
+
+
+The most common elements:
+-------------------------
+    1) text 
+    2) buttons
+    3) images
+    4) input elements
+    5) tags
+
+
+The most common componenets:
+---------------------------
+Components: 
+    1) breadcrumbs
+    2) pagination
+    3) alert and status bars
+    4) statistics
+    5) gallery 
+    6) feature box 
+        - usaually you will have multiple feature boxes next to each other
+    7) preview and profile cards
+    8) accordion
+    9) tabs 
+    10) carousel 
+    11) customer testimonials
+    12) customer logos 
+    13) featured-in-logos
+    14) steps
+        - take the customer throw the jurney 
+    15) forms
+    16) tables
+    17) pricing tables
+    18) modal windows 
+
+Layout Patterns:
+-----------------
+
+Section componenets:
+    1) Navigation
+        - main Navigation
+        - overlays (mobile screen)
+        - secondary Navigation
+    2) Hero section 
+    3) footer
+    4) call-to-action 
+        - when show the user the information then we need call to action 
+          to make the user take an action
+    5) feature row 
+        - usaually containe image in one side and text to the other side 
+          it migth have a button to feature page if it exist 
+
+Layout Patterns:
+    1) Row of boxes or cards 
+    2) grid of boxes or cards
+    3) z-pattern
+        - we firest have the image in onse side in the second row it will
+          be in the opposite side and in third will be opposite and so on
+    4) f-pattern
+    5) single-column
+    6) sidebar
+    7) multi-column/magazine
+    8) asymmetry/experimental 

@@ -1,0 +1,45 @@
+## Use Good Images:
+
+    01) Different types of images:
+        product photos, storytelling photos, illustrations, patters
+
+    02) Use images to support your website's message and story.
+        So only use relevant images!
+
+    03) Prefer original images. If not possible use original looking
+        stock images (not generic ones)
+        ** toolBox:
+            - Unsplash
+            - pexels
+            - drawkit
+            - undraw
+
+    04) Try to show real people to trigger user's emotions
+
+    05) If necessary, crop images to fit your messages
+
+    06) experiment combining photos, illustrations and patterns
+
+## Handling Text on images:
+
+    07) Method #1: Darker or birghten image (completely or partially, using a gradient)
+
+    08) Method #2: Position text into neutral image area:
+        - you should be careful because it could change postion on other view port
+
+    09) Method #3: Put text in a box
+
+## Some technical details:
+
+    10) To account for high-res screens, make image dimensions 2x
+        as big as their display size
+        - scale factor:
+          actual pixels the screen contains / Pixels represent on screen
+
+        - On high-res screens, scale factor is 2x or even 3x, on "normal"
+          screens it's just 1x (1 physical pixel = 1 design pixel)
+
+    11) Compress images for a lower file size and better performance:
+        - squoosh
+
+    12) When using multiple images side-by-side, make sure they have the exact same dimensions

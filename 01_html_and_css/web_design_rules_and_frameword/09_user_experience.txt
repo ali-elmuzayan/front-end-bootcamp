@@ -1,0 +1,74 @@
+"Design is not just what it look like and feel like.
+     Design is how it works" -Steve Jobs-
+
+UI and UX:
+----------
+What is user interface?
+    - is the visual presentation of a product. It's how the graphical 
+    inteface looks and feels like 
+        - layout, personality, typegraph, colors, icons, etc.
+
+    
+What is User Experinece?
+    - is the overall experience the user has while interesting with 
+      the product
+      - Does the app logical and well thoght out?
+      - Does the navigation work intuitively?
+      - Are users reaching their goals
+
+UI and UX design:
+    - UI is graphical interfce, UI design is what makes an interface 
+      beautiful 
+    - UX is experience with interface, UX design is what makes an 
+      interface useful and functional 
+    - UX design can not exist without UI design 
+
+
+UX Design Guiding principles:
+-----------------------------
+    -  A website or application exists for a reason: a user has a 
+        goal for visiting it, and a business has a goal for creating it
+
+    UX Example:
+    - hilighting an option in the product pricing table: 
+        - helps the user decide faster what is the best option
+        - helps the business maximize revenue
+
+
+
+User Experinece Rules for usability:
+--------------------
+    01) Don't desing complicated layouts. Don't reinvent the wheel.
+        Use patterns that users know.
+
+    02) Make your call-to-action the most prominent element, and make 
+        the text descriptive
+
+    03) Use blue text and underlined text only for links!
+
+    04) animations should have a purpose and be fast: between 
+        200 and 500 milliseconds
+
+    05) In forms, align labels and fields in a single vertical line, 
+        to make the form easier to scan
+
+    06) Offer users good feedback for all actions: form errors, 
+        form success, etc [web app]
+
+    07) Place action buttons where they will create an effect (law of 
+        locality)
+
+User Experinece For Website Content:
+------------------------------------
+
+    08) Use a descriptive, keyword-focused headline on your main page.
+        Don't vague or fancy!
+
+    09) ONly include relevant information, efficiently! Cut out fluff
+        and make the content 100% clear
+
+    10) Use simple words! Avoid technical jargon and "smart-sounding" 
+        words
+
+    11) Break up long text with sub-headings, images, block, quotes,
+        bullet points, etc.

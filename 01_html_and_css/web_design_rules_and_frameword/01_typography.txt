@@ -1,0 +1,75 @@
+Some concepts first: 
+--------------------
+
+- Typography:
+    Typography is the art and technique of arranging type to make written
+    language legible, readable and appealing when displayed
+
+
+- serif vs sans-serif:
+    - serif typeface:
+        - creates a traditional/ classic look and feel
+        - converys trustworthiness
+        - good for long text
+
+    - sans-serif typeface
+        - modern look and feel
+        - clean and simple 
+        - easier to choose for beginner designer:
+
+
+Rules:
+------
+    1) Use only good and popular typefaces and play it safe;
+        - sans serif: 
+            ex: inter, open sans, roboto, montserrat, work sans, lato 
+        - serif: 
+            ex: merriweatherer, aleo, playfair display, cormorant, cardo
+                laro 
+        
+    2) It's okay to use just one typeface per page! if you wnat more, 
+       limit to 2 typefaces.
+
+    3) choose the right typeface according to your website personality;
+        - choose the right personality for your website
+        - decide between a serif and sans-serif typeface
+        - experiment with all the good typefaces
+        - you can keep trying different typefaces as you design and build
+     
+    4) when choosing font-sizes, limit choices! use a type scale tool or
+       other pre defined range:
+       10, 12, 14, 16, 18, 20, 24, 30. 36, 44, 52, 62, 74, 86, 98px
+
+    5) Use a font size between 16px and 32px for "normal" text
+
+    6) for long text (like a blog post), try a size of 20px or even bigger
+
+    7) for headline, you can go really big (50px+) and bold (600+), 
+        depending on personality
+
+    8) for any text, don't use a font weight under 400 (regular)
+
+    9) Use less than 75 characters per line 
+
+    10) for normal sized text, use a line height between 1.5 and 2. 
+        for big text go below 1.5
+            - the smaller or longer the text, the larger the line height 
+              needs to be!
+
+    11) Decrease letter spacing in headlines, if it looks unnatural
+        this will come form experience 
+
+    12) experiment with all caps for short titles. Make them small and 
+        bold and increase letter-spacing
+
+    13) usually don't justify text 
+
+    14) Don't center long text blocks, small blocks are fine 
+
+
+
+
+Note: 
+-----
+    - if you are going to add a google font you should code the link
+        before your style link

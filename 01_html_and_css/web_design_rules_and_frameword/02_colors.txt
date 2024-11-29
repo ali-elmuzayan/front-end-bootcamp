@@ -1,0 +1,93 @@
+Choose the right color:
+----------------------
+    01) Make the main color match your website's personality:
+        colors conver meaning 
+    02) Use a good color tone! Don't choose a random tone 
+      or CSS named colors
+        * toolbox => 
+                Open color, 
+                tailwindcss, 
+                flat UI colors 2
+                palleton
+                coolors
+                tint and shade generator
+
+    03) You need at least 2 types of colors in your color palette:
+        a main color and a grey color (it doesn't mean gray it could 
+        be dark blue what we mean the gredient of gray)
+
+    04) With more experince, you can add more color: accent colors (use 
+      tool)
+
+    05) for diversity, create lighter and darker "versions" 
+       (tints and shades)
+
+
+when and How to use colors: 
+---------------------------
+    06) Use main color to draw attention to the most important
+       elements on the page 
+    
+    07) Use colors to add interesting accesnts or make entire components
+       or sections stand out 
+
+    08) You can try to use your color strategically in images 
+       and illustrations
+
+Colors and Typography:
+----------------------
+    09) On dark colored backgrounds, try to use a tint of the background
+       ("lighter version") for text
+
+    10) Text should usually not to be completely black.
+        Lighten if up it looks heavy and uninviting
+
+    11) Don't make text too light! Use a tool to check contrast between 
+        text and background colors:
+        ** contrast ratio needs to be at least 4.5:1 for normal text 
+        and 3:1 for large text (18px+)  (use coolors)
+
+
+meaning of colors:
+----------------
+    - Red:
+        Draws a lot of attention, and symbolizes power, passion, and 
+        excitement
+
+    - Orange:
+        is less aggressive, and conveys happiness, cheerfulness, and 
+        creativity
+
+    - Yellow:
+        Means joy, brightness, and intelligence
+
+    - Greens:
+        Represent harmony, nature, growth, and health
+
+    - Blue: 
+        Is associated with peace, trustworthiness and profisionalism
+    
+    - Purple:
+        Conveys wealth, wisdom and magic
+    
+    - Pink:
+        represents romance, care, and affection
+
+    - Brown: 
+        is associated with nature, durability and comfort
+
+    - black:
+        symbolizes power, elegance and minimalism, 
+        but also grief and sorrow
+
+implementing:
+--------------
+    - when you write your code try to combine the common style 
+      then what ever is different change it individually 
+
+    - always check the constrant between the color => coolors.co
+
+    - don't choose randomly colors  
+    
+    - on link style try to style it on link, visit also 
+      on hover and active 
