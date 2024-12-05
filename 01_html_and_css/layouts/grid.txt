@@ -1,0 +1,94 @@
+What is CSS GRID?
+-----------------
+  - CSS Grid is a set of CSS properties for building 2-dimensional
+    layouts
+
+  - The main idea behind CSS Grid is that we divide a container 
+    element into rows and columns that can be filled with its child
+    elements
+
+  - In 2-dimensional contexts, CSS Grid allows us to write less nested
+    HTML and easier-to-read CSS
+
+  - CSS Grid is not meant to replace flexbox! instead, they work 
+    perfectly together. Need a 1D layout? use flexbox. Need 2D layout?
+    use CSS Grid
+
+  - Basic CSS Grid Termnology:
+    - display: flex;
+    - grid container 
+    - grid items
+    - column axis
+    - row axis
+    - grid lines 
+      is the lines that surrond the columns and the rows  
+    - gird cell:
+      might be filled by a grid item or not 
+    - grid tracks:
+      might be a row or a columns 
+    - gaps:
+      gutters
+
+
+grid properties:
+----------------
+flex: grid;
+    - to start the grid system 
+
+for grid container:
+--------------------
+  - grid-template-columns: <track size>*
+    grid-template-rows: <track size>*
+    => to establish the grid row and column tracks. one lenght unit for 
+     each track. any unit can be used, new fr fills unused space 
+
+
+
+  - gap:
+    row-gap;
+    column-gap;
+    => to create empty space between tracks
+
+
+
+  - justify-items: stretch|start|center|end
+    align-items: stretch|start|center|end
+    => to aligh items inside rows/columns (horizontally / vertically)
+ 
+
+
+  - justify-content: start|center|end
+    align-content: start|center|end
+    => to align entire grid inisde grid container. Only applies if 
+       container is larger than the grid.
+
+
+for grid items:
+----------------
+  - grid column: <start line> / <end line> | span <number>
+    grid-row:    <start line> / <end line> | span <number>
+
+    => to place a grid item into a specific cell, based on line numbers.
+       span keyword can be used to span an item across more cells
+
+
+
+  - justify-self: stretch|start|center|end
+    align-self: stretch|start|center|end
+
+    => to overwrite justify-items/ align-items for single items
+
+
+Note:
+-----
+    - always use gap and never margin;
+    - fr 
+    - use repeat() function 
+        => repaeat(3, 1fr)
+    - auto => will only take the space they need
+    - in many situation you only need to select the columns
+
+    - by properties of one item you can make it take a place of 
+      multiple cells
+    - to make the item span 1 to the end use -1 (take the full width)
+      grid template

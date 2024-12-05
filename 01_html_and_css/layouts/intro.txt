@@ -1,0 +1,42 @@
+there is a three ways to build layout
+-------------------------------------
+- float
+- flexbox
+- grid
+
+layout:
+--------
+ - layout is the way text, images and other content is 
+   placed an arranged on a webpage.
+
+ - layout gives tha page a visual structure, into which we place our 
+   content.
+
+ - Building a layout: arranging page elements into a visual structure, 
+   instead of simply having them placed one after another (normal flow)
+
+
+The 3 ways of building layouts with css: 
+-----------------------------------------
+ - float layouts
+    - The old way of building layouts of all sizes, using the float CSS 
+      property. still used, but getting outdated fast
+
+ - flexbox 
+    - Modern way of laying out elements in a 1-dimensional row without
+      using floats. perfect for component layouts.
+
+ - grid
+    - for laying out element in a fully-fledged 2-dimensional grid.
+      perfect for page layouts and complex components.
+
+
+
+
+Note:
+---------
+ - display: none;
+    - will completely removed from the flow;
+    
+ - for default text 
+    - lorem + enter

@@ -1,0 +1,52 @@
+properties:
+  floats:
+    left, right;
+
+note:
+ - when usign float for the element it will get complotly out of
+   the page flow;
+    
+ - so the area that the parent talked pecause of it child element 
+   it will be lost so you should use, the 'collapsing' 
+   => overflow hidden 
+
+
+cleaning float:
+---------------
+ - add block elemnent with clear class for example  after the dive we want 
+   to clear:
+ - add clear property to that class 
+    clear:both;
+ - instead of doing that you can use after psuesdo class and make it 
+   display block 
+ - note:
+    in case there is a block element after it so don't use this trick 
+    and clear it directly 
+
+
+
+normal flow vs. absoulute float vs. floats:
+-------------------------------------------
+Normal float:
+    - default positioning 
+    - element is 'in flow'
+    - elements are simply laid out according to their
+      order in the HTML code.
+    - default positioning: 
+            position: relative;
+
+absoulute positioning:
+    - elements is removed from the normal flow: 'out of flow'
+    - no impact on surrounging elements, might overlap them 
+    - we use top, bottom, left, or right to offset the element
+      from its relatively positioned container 
+    - position: 
+        absoulute;
+
+
+Floats:
+    - Element is removed from the normal flow: 'out of flow'
+    - text and inline elements will wrap around the floated element
+    - the container will not adjust its height to the element
+    - float:
+        left, right;
