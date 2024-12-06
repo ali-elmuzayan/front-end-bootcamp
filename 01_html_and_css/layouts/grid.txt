@@ -89,6 +89,8 @@ Note:
     - in many situation you only need to select the columns
 
     - by properties of one item you can make it take a place of 
-      multiple cells
+      multiple cells (grid-column and grid-row)
     - to make the item span 1 to the end use -1 (take the full width)
-      grid template
+      of the grid template 
+      => grid-column: 1/ -1; or
+      => grid-dolumn: 1/ span 3; if it consisit of 3 cells

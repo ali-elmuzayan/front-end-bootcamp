@@ -1,1 +1,71 @@
-flex
+What is flexbox?
+----------------
+ - Flexbox is a set of related CSS properties for building 1-dimentional
+   layouts.
+
+ - The main idead behind flexbox is that empty space inside a container 
+   element can be automatically divided by its child elements
+
+ - Flexbox makes it easy to automatically align items to one another 
+   inside a parent container, both horizonatlly and vertically.
+
+ - Flexbox solves common problems such as vertical centering and creating
+   equal-height columns.
+
+ - Flexbox is perfect for replacing floats, allowing us to write fewer
+   and cleaner HTML and CSS code
+
+ - Flexbox terminology:
+    - flex container 
+    - flex items 
+    - main axis 
+    - cross axis 
+
+
+flexbox properties:
+------------------
+Flex container 
+ - display: flex;
+    => to turn on the flexbox 
+    => when use it all the child element will be display flex item;
+
+ - align-items: stretch
+    => to align items along cross axis (vertically, by default) 
+
+ - justify-content: flex-start
+   => to align item alnog main axis (horizonatlly, by default) 
+
+ - gap: 
+   => to create sapce between items, without using margin 
+
+ - flex-direction:
+   => to define which is the main axis
+
+ - flex-wrap
+   => to allow items to wrap into a new line if they are too large
+
+ - align-content:
+   => only applies when there are muliple lines (flex-wrap: wrap)
+
+
+Flex items:
+ - align-self
+   => to overwrite align-items for individual flex items;
+
+ - flex-gorw:0
+   => to allow an element to grow ( 0 means no, 1+ menas yes)
+
+ - flex-shrink: 1
+   => to allow an element to shrink (0 mean no, 1+ means yes)
+
+ - flex-basis: auto 
+   => to define an item's width, instead of the width property
+   => when the element is bigger than the fixed flex-basis it will be 
+      auto value again
+
+ - flex: 0 1 auto 
+   => recommended shorthand ifro flex-grow, -shrink, -basis
+
+ - order: 0
+   => controls order of items, -1 makes item first, 1 makes it last
+   => it accept negative values 

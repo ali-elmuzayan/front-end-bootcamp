@@ -1,0 +1,89 @@
+/* General Style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+  color: #444;
+}
+
+body {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* End General style */
+
+/* header style */
+header {
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/hero.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+nav {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.2rem;
+}
+
+.header-container {
+  width: 900px;
+  position: absolute;
+  /* related to teh parent size  */
+  top: 50%;
+  left: 50%;
+
+  /* related to the element size */
+  transform: translate(-50%, -50%);
+}
+
+.container-inner {
+  width: 50%;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 32px;
+  line-height: 1.05;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #e67e22;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+}
+/*  end heading  */
+
+/* start section  */
+h2 {
+  font-size: 4.8rem;
+}
+section {
+  padding: 9.6rem 0;
+  background-color: #f7f7f7;
+}

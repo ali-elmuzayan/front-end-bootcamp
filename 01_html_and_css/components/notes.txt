@@ -1,0 +1,29 @@
+what is the difference between nav and menu:
+- ----------------------------------------
+  - nav 
+    for a typical navigaion of the cite 
+    conatina a bench of links which point to the other places in the 
+    application 
+
+  - menu 
+    is actually for menu button 
+
+
+to show scroll bar:
+------------------
+    - overflow: scroll;
+    - if it flexbox: add
+     to the item flex-shrink to zero
+
+flexbox with only text:
+-------
+    - textbox will display the element inside it to flex item even
+     if it text
+
+header element:
+---------------
+  - is the semantic elemnet of the introduction of the website 
+
+when style the <a>:
+------------------
+  - a:link, a:visited in that order 
