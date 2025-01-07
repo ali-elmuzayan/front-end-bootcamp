@@ -1,3 +1,37 @@
+** ------------ **
+    start Rsources:
+** ------------ **
+Steal like an artist:
+--------------------
+    - website personalities
+    - design ingredients
+    - design guidlines & rules
+    - getting inspired and stealing like an artist;
+        - Not completely copying a design instead, it's about taking good
+         parts and adapting them to our nees 
+
+aggreating sites:
+----------------
+  - land-book.com
+  - onepagelove.com
+  - awwards.com
+  - screenlane.com
+  - appsignal.com
+  - docspo.com
+
+
+** ------------ **
+    Resources:
+** ------------ **
+colors:
+----------
+    - open color
+
+icons:
+---------
+    - heroicons
+
+
 // typegraph:
 ------------
     - line-height:
@@ -44,13 +78,19 @@
   - stroke
     - for the color 
 
-** ------------ **
-    Resources:
-** ------------ **
-colors:
-----------
-    - open color
 
-icons:
----------
-    - heroicons
+// table:
+----------
+  - border-collapse 
+  - tr:nth-child(odd)
+  - tr:nth-child(even)
+
+
+
+**-------------------------**
+          NOTES
+**-------------------------**
+// center:
+  - margin: 0 auto ;
+      => 0 could be any value;
+  - display: flex; justify content;

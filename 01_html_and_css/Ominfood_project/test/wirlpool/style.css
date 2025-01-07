@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+.wirlpool {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #cf711f;
+  position: relative;
+}
+
+.wirlpool::before,
+.wirlpool::after,
+.nested {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wirlpool::before {
+  width: 80%;
+  height: 80%;
+  background-color: #e67e22;
+}
+
+.wirlpool::after {
+  width: 50%;
+  height: 50%;
+  background-color: #fae5d3;
+}
+
+.nested {
+  width: 25%;
+  height: 25%;
+  background-color: #fdf2e9;
+  z-index: 1;
+}

@@ -1,0 +1,172 @@
+/* ------------------
+    General styles 
+--------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+/* -----------------
+  start btn styles 
+-------------------- */
+/* btn style  */
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  border-radius: 0.9rem;
+  transition: all 0.5s;
+}
+
+/* btn-full style  */
+.btn-full:link,
+.btn-full:visited {
+  background-color: var(--main-color);
+  color: var(--white);
+}
+
+.btn-full:hover,
+.btn-full:active {
+  background-color: var(--main-color-dark);
+}
+
+/* btn-outline style  */
+.btn-outline:link,
+.btn-outline:visited {
+  background-color: var(--white);
+  color: var(--gray);
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: var(--tint);
+  color: var(--gray);
+  box-shadow: inset 0 0 0 3px var(--white);
+}
+
+/* --------------------
+    start Grid styles
+    ----------------------- */
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-center-v {
+  align-items: center;
+}
+
+/* --------------------
+    start Headers styles
+----------------------- */
+
+.heading-primary,
+.heading-secondary {
+  font-weight: 600;
+  color: var(--gray);
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+}
+
+.heading-ternairy {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+/* --------------------
+    start margins styles
+ ----------------------- */
+.mr-xs {
+  margin-right: 1.6rem !important;
+}
+
+/* margin Top */
+.mt-xs {
+  margin-top: 1.6rem !important;
+}
+.mt-s {
+  margin-top: 3.2rem !important;
+}
+
+.mt-m {
+  margin-top: 4.8rem !important;
+}
+.mt-l {
+  margin-top: 6.4rem !important;
+}
+
+.mt-xl {
+  margin-top: 8rem !important;
+}
+
+.mt-xxl {
+  margin-top: 9.6rem !important;
+}
+
+/* Margin Bottom */
+.mb-3 {
+  margin-bottom: 1.2rem !important;
+}
+.mb-4 {
+  margin-bottom: 1.6rem !important;
+}
+.mb-5 {
+  margin-bottom: 2rem !important;
+}
+.mb-xs {
+  margin-bottom: 2.4rem !important;
+}
+.mb-s {
+  margin-bottom: 3.2rem !important;
+}
+
+.mb-m {
+  margin-bottom: 4.8rem !important;
+}
+
+.mb-l {
+  margin-bottom: 6.4rem !important;
+}
+
+.mb-xl {
+  margin-bottom: 8rem !important;
+}
+
+.mb-xxl {
+  margin-bottom: 9.6rem !important;
+}

@@ -1,0 +1,92 @@
+/* ------------------- */
+/*    General Style    */
+/* ------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+:root {
+  --tent: #087f5b;
+  --light-tent: #c3fae8;
+  --lighter-tent: #e6fcf5;
+  --white: #fff;
+  --dark-gray: #343a40;
+}
+
+/* ------------------- */
+/* Componentent style  */
+/* ------------------- */
+
+.carsual {
+  width: 80%;
+  margin: 10rem auto;
+  background-color: var(--tent);
+  border-radius: 1rem;
+  padding: 3.2rem;
+  color: var(--white);
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 8.6rem;
+}
+
+img {
+  height: 20rem;
+  border-radius: 0.8rem;
+  transform: scale(1.5);
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 3.2rem;
+  color: var(--lighter-tent);
+}
+
+.testimonial-author {
+  font-size: 1.4rem;
+  margin-bottom: 0.4rem;
+  color: var(--light-tent);
+}
+
+.testimonial-job {
+  font-size: 1.2rem;
+  color: var(--light-tent);
+}
+
+/* controls */
+.btn {
+  border-color: #fff;
+  border: non;
+  height: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: var(--tent);
+}
+
+.btn--left {
+  left: 0;
+}
+
+.btn--rigth {
+  right: 0;
+}

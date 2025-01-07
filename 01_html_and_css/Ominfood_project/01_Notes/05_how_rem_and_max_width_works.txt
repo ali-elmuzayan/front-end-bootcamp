@@ -8,7 +8,7 @@ How Rem and max width works:
         have the width of the parent container
 
     - max-width: 1000px;
-        it mean it will fit the parent elemtn until it getting bigger 
+        it mean it will fit the parent element until it getting bigger 
         than 1000px, in this case it will take the 1000px width 
     
     - while if you using the width it will make it static

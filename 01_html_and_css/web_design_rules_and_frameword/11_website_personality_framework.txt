@@ -1,0 +1,260 @@
+The 7 personalities:
+--------------------
+    1) Serious/Elegant
+    2) Minimalist/Simple
+    3) Plain/Neutral 
+    4) Bold/Confident
+    5) Calm/Peaceful
+    6) Startup/Upbeat
+    7) Playful/Fun
+
+
+The Website-personalities-Framework:
+-----------------------------------
+first:
+    - How do you want website to appear to users? what "vibe" do you
+      want to transmit 
+    - Choose one of the website personalities accordingly 
+    - apply personality traits to each design ingredient
+
+
+01 - Serious/Elegant:
+--------------------
+    - Overview:
+        Design fo rluxury and elegnace, based on this serfi typeface, 
+        golden or pastel colors, and bigh high quality images
+
+    - Industreis:
+        Real estate, high fashion, jewelery, luxury products or services
+
+    - typography:
+        serif typefaces (especially in heading), light font weight, small
+        body font size
+
+    - colors:
+        gold, pastel color, black, dark blue or grey
+
+    - images:
+        big, high qulity images are used to feature elegan and expensive 
+        products.
+
+    - icons:
+        usually no icons, but thin icons and lines may be used 
+
+    - shadows:
+        usually no shadows
+
+    - border-radius:
+        usually no border radius
+
+    - layout 
+        a creative and experimental layout is quite common
+
+
+02- Minimalist/simple:
+---------------------
+    - Overview:
+        Focusses on the essential text contetn, using small or medium-
+        sized sans-serif black text, lines, and few images and icons
+
+    - Industreis:
+        fashion, portfolios, mimimalism companies, software Startup
+
+-for ingredient:
+    - typography:
+        boxy/squared sans-serif typefaces, small body font sizes
+
+    - colors:
+        usually black or dark grey, on pure white background, usually 
+        just one color throughout the design 
+
+    - images:
+        few images, which can be used to add some color to the design
+        usually no illustrations, but if, then just black
+
+    - icons:
+        usually no icons, but small simple black icons may be used 
+
+    - shadows:
+        usually no shadows
+
+    - border-radius:
+        usually no border-radius
+
+    - layout:
+        simple layout, a narrow one-column layout is quite common
+    
+
+03- plain/neutral:
+------------------
+    - Overview:
+        Design that gets out of the way by using very neutral and small
+        typefaces, and a boxy, structured, and condensed layout
+
+    - Industreis:
+        well-established corporations, companies that don't want to
+        make an impact through design.
+
+-for ingredient:
+    - typography:
+        neutral-looking sans-serif typfaces are used, and text is 
+        usually small and doesn't have visual impact. 
+
+    - colors:
+        safe colors are employed, nothing too bright or to washed-out
+        blues and blacks are common.
+
+    - images:
+        images are frequently used, but usually in a small format
+
+    - icons:
+        usually no icons, but simple icons may be used
+
+    - shadows:
+        usually no shadows
+
+    - border-radius:
+        usually no border-radius
+
+    - layout:
+        structured and condensed layout, with lots of boxes and rows 
+
+
+04- bold/Confident:
+---------------
+    - Overview:
+        Design that makes an impact, by featuring big and bold
+        typography, paired with confident use of big colored blocks
+
+    - Industreis:
+        Digital agencies, software startups, travel, "storng" companies
+
+-for ingredient:
+    - typography:
+        boxy/squared sans-serif typefaces, big and bold typography, 
+        especially heading. Uppercase heading are common
+
+    - colors:
+        usually multiple bright colors. Big color blocks/sections are 
+        used to draw attention
+
+    - images:
+        lots of big images are usually displayed
+
+    - icons:
+        usually no icons
+
+    - shadows:
+        usually no shadows
+
+    - border-radius:
+        usually no border-radius
+
+    - layout:
+        all kinds of layouts, no particular tendencies
+
+
+
+05- Calm/peaceful:
+---------------
+    - Overview:
+        for products and services that care about the cunsumer, which is
+        transmitted by calming pastel colors and soft serif headings
+
+    - Industreis:
+        Healthcare, all products wit focus on consumer well-being
+
+-for ingredient:
+    - typography:
+        soft serif typefaces frequently used for headings, but sans 
+        serif headings might be used too (e.g for software products)
+
+    - colors:
+        pastel/washed-out colors: light oranges, yellows, browns, greens
+        blues
+
+    - images:
+        images and illustrations are uaual, matching calm color palette
+
+    - icons:
+        icons are quite frequent
+
+    - shadows:
+        usually no shadows, but might be used sparingly 
+
+    - border-radius:
+        some border-radius is usual
+
+    - layout:
+        all kinds of layout, no particular tendencies
+
+
+
+06- startup/upbeat:
+--------
+    - Overview:
+        widely used in startups, featuring medium-sized sans-serif 
+        typfaces, light-grey backgrounds, and rounded elements
+
+    - Industreis:
+        software startup, and other modern-looking companies
+
+-for ingredient:
+    - typography:
+        medium-sized headings (not too large), usually one sans-serif
+        typeface in whole design. tendency fo rlighter text colors
+
+    - colors:
+        blues, greens and purples are widely used. lots of light 
+        backgrounds (mainly gray), gradients are also common
+
+    - images:
+        images or illustrations are always used. 3D illustrations are 
+        modern. sometimes patterns and shapes add visual details
+
+    - icons:
+        icons are very frequent
+
+    - shadows:
+        subtle shadows are frequent. glows are becoming modern 
+
+    - border-radius:
+        border-radius is very common 
+
+    - layout:
+        rows of cards and z-pattern are usal as well as animations
+
+
+07- Playful/fun: 
+---------------
+    - Overview:
+        colorful and round designs, fueled by cretive elemetents like 
+        hand-drqwn icons or illustrations, animations and fun language
+
+    - Industreis:
+        child products, animal products, food
+
+-for ingredient:
+    - typography:
+        round and creative (e.g. handwritten) snas-serif typfaces are
+        frequens, cntered text is more common
+
+    - colors:
+        multiple colors are frequwntly used to design a colorful layout
+        all over backgrounds and text
+
+    - images:
+        images, hand-drawn (or 3D) illustrations, adn geometric shapes
+        and patterns are all very frequently used
+
+    - icons:
+        icons are very frequent, many times in a hand-drawn style 
+
+    - shadows:
+        subtle shadows are quite common, but not always used 
+
+    - border-radius:
+        border-radius is very common 
+
+    - layout:
+       all kinds of layouts, no particular tendencies

@@ -1,9 +1,116 @@
+1) selected by classes:
+    - Even if you can apply styles using element selectors, 
+      it’s better to use classes for styling.
 
 
-img: 
-    - when you determine the container width but this container 
-        have an image with a static width of px so it will not be 
-        resoponsive 
-    => make the image take width of percentage 
-     
-        
+2) link or button:
+    - use links for navigation and buttons for actions
+
+
+3) layout tools to follow:
+    - Maintain consistent tool conventions across the 
+      entire layout whenever possible
+
+
+4) for SEO:
+    - use alt with images 
+
+
+
+6) allow the style to take it time: 
+    - add in the main rule --> transition: property
+        - select the element you want to animate 
+        - and the time it want to animate
+    - you can specify one decoration to transition
+    - put transition on the original "state"
+
+
+7) important style:
+    - when builing your library you might need !important in some cases
+
+
+8) grid or flex with 1-dimentional layouts:
+    - Use a grid layout when precise sizing is important; 
+      otherwise, opt for flexbox.
+    - even if it have one element you can set it to flex and adjust 
+      it 
+
+      
+9) to make the square a circle :
+    - border radious: 50%
+
+
+10) height and width:
+    - why selecting a width an not make it automatically adjusted
+    => because there is some bug in the sefari browser when the
+       images are flex items and so we need to set both height and 
+       width in that case 
+
+
+11) nav elements:
+    - is a semantic elements which is used for major navigation blocks
+    - so not all collection of links need to be wrapped in a nav
+
+
+12) main element:
+    - is the main area of a web document. 
+    - it contain the main part of the web page 
+    - You can wrap the entire section with the <main> element to 
+      designate it as the primary content of the page 
+    - However if the same section appears on multiple page it should 
+      not be marked as the main content 
+
+
+13) Why set a specific height for the header instead of allowing 
+    the content and padding to define it naturally
+    - because we might make the navigation sticky a bit later 
+
+
+14) hero section
+    - sometimes the hero section is much more bigger than other section 
+      in the width
+
+
+
+//  sections
+1) it is not a good choice to have an h3 above of h2 
+   - cause h3 is used to describe this h2 is all about 
+
+2) in one section you can have multi containers div 
+   
+4) if the title not subtitle of the bigger title 
+    - you can use paragraph like in meal case 
+
+5) how add category 
+    - categories are many times a good fit for using tags 
+    - so you can add before the title 
+
+
+
+// Tricks:
+
+1) How to add border inside:
+    - by using box-shadow 
+      only scale it and inset
+
+2) How to add height if the height property doesn't work:
+    - by adding padding-bottom
+
+3) filtering img to gray 
+    - fileter grayscale(100%)
+
+
+
+reusable grid:
+ - grid => will make style display grid and give it a gap 
+ - grid-2-cols => grid-template-columns: rpeat(2,1fr);
+ - grid-4-cols => grid-template-columns: rpeat(4,1fr);
+
+for accessibility:
+ - check the constract between text and background color
+
+resourses:
+    - maketintandshades.com
+
+not always follow the rules:
+    - rules are meant to be broken
